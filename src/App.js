@@ -9,7 +9,7 @@ const [people,setPeople] = useState(data)
   return (
     <main>
     <div className="container">
-      <h3>{people.length}Birtdays Today</h3>
+      <h3>{people.length} Birtdays Today</h3>
       <Lİst people= {people} />
       <button onClick={()=>setPeople([])}>Clear All</button>
     </div>
