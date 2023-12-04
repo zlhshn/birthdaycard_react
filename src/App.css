@@ -1,1 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body{
+
+    background-color: #f28ab2;
+    padding: 2rem;
+}
+
+
+.container{
+
+background-color: white;
+width: 40%;
+border-radius: 1rem;
+margin: auto;
+box-shadow: 0 5px 15px black;
+
+}
+
+
+img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.person{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button{
+
+    width: 100%;
+    background-color: #f28ab2;
+    border: none;
+    border-radius: 1rem;
+}
